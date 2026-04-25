@@ -33,6 +33,26 @@ Zentra is a hybrid financial intelligence platform that:
 
 ---
 
+## ✨ Features
+
+### Core Features
+- Add & manage transactions  
+- View transaction history  
+- Category-based filtering  
+
+### Smart System
+- Auto-categorization  
+- Deduplication engine  
+- Multi-source normalization  
+
+### AI Features
+- Monthly spending insights  
+- Category breakdown  
+- Overspending alerts  
+- AI-powered chat assistant  
+
+---
+
 ## 🏗️ Architecture
 
 ```text
@@ -57,26 +77,6 @@ Mobile App (React Native)   Web App (Next.js)
 
 ---
 
-## ✨ Features
-
-### Core Features
-- Add & manage transactions  
-- View transaction history  
-- Category-based filtering  
-
-### Smart System
-- Auto-categorization  
-- Deduplication engine  
-- Multi-source normalization  
-
-### AI Features
-- Monthly spending insights  
-- Category breakdown  
-- Overspending alerts  
-- AI-powered chat assistant  
-
----
-
 ## 📱 UI Screens
 
 - Dashboard  
@@ -85,6 +85,23 @@ Mobile App (React Native)   Web App (Next.js)
 - CSV Upload  
 - SMS Suggestions  
 - AI Chat  
+
+---
+
+## 🗄️ ER Diagram
+
+![ER Diagram](docs/zentra_er_diagram.png)
+
+---
+
+## 🧠 Tech Stack
+
+- Frontend: Next.js
+- App: React Native
+- Backend: Node.js (Express)  
+- Database: PostgreSQL  
+- AI: LLM API  
+- DevOps: Docker, AWS
 
 ---
 
@@ -97,12 +114,6 @@ POST   /upload-csv
 POST   /insights
 POST   /chat
 ```
-
----
-
-## 🗄️ ER Diagram
-
-![ER Diagram](./docs/zentra_er_diagram.png)
 
 ---
 
@@ -139,6 +150,15 @@ Core Entities:
 
 ---
 
+## 📁 Project Structure
+
+- backend/
+- frontend/
+- mobile/
+- docs/
+
+---
+
 ## 📦 Setup Instructions
 
 ### Clone Repo
@@ -172,6 +192,12 @@ npm run dev
 
 ---
 
+## 📸 Preview
+
+> Screenshots will be added soon.
+
+---
+
 ## 🚀 Future Enhancements
 
 - Bank integration (Account Aggregator)  
@@ -183,4 +209,6 @@ npm run dev
 
 ## 👨‍💻 Author
 
-Ayush Kumar Agrawal
+Ayush Kumar Agrawal  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/ayush-kumar-agrawal-376440303/)
